@@ -13,8 +13,8 @@ def div(num1, num2):
 def main():
     num1 = int(input("What number is 1?"))
     num2 = int(input("What number is 2?"))
-    operation = input("What do you want to do?(add, 'subtract', 'multiply', and 'divide'?)")
-    if operation == add:
+    operation = input("What do you want to do?('add', 'subtract', 'multiply', and 'divide'?)")
+    if operation == 'add':
         print (add(num1, num2))
     elif operation == 'subtract':
         print (sub(num1, num2))
@@ -26,8 +26,10 @@ def main():
         print ('Listen up you big stupid, you think your funny doing it wrong?!')
     print ('Have A Good Day!')
     print ('CODED BY SAM TALIA (c)')
-    input()
-    """IGNORE IMPUT ON LINE 29 IT IS SO IT DOESN'T AUTO CLOSE IN PYTHON"""
 
-main()
+    user_yn = input('To quit type: exit')
+    if(user_yn !='exit'):
+        exit()
 
+
+mai

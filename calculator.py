@@ -32,4 +32,4 @@ def main():
         exit()
 
 
-mai
+main()
